@@ -1,0 +1,4 @@
+project: PROJECT
+target: fuzz-dwfl-core
+cmds:
+- cmd: /out/fuzz-dwfl-core
