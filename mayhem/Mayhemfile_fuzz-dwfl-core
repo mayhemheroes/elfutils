@@ -1,0 +1,5 @@
+project: elfutils
+target: fuzz-dwfl-core
+cmds:
+  - cmd: /mayhem/fuzz-dwfl-core
+    libfuzzer: true

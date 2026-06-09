@@ -1,0 +1,5 @@
+project: elfutils
+target: fuzz-libelf
+cmds:
+  - cmd: /mayhem/fuzz-libelf
+    libfuzzer: true
